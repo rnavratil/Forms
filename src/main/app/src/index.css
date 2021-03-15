@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-form {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  min-width: 300px;
+
+}
+
+Select {
+  width: 50%;
+  background-color: pink;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main-form label {
+  text-align: center;
+}
+
+Button {
+  float: right;
+  margin-top: 15px;
+}
+
+.form-select label {
+  font-weight: bold;
+}
+
+.form-selectBox {
+  margin-top: 10px;
+}
+
+.error-field {
+  color:red;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form-input input {
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  margin-top:10px;
+}
+
+Input label {
+  text-align: left;
+}
+
+.form-input {
+  margin-top:15px;
+}
+
+.form-input label {
+  font-weight: bold;
+}
+
+textArea {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.form-textArea {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-textArea p {
+  font-weight: initial;
+  text-align: right;
+  margin: 0px;
+}
